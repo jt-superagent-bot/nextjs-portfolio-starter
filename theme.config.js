@@ -4,11 +4,11 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
+      <span style={{ float: 'right', display: 'inline-flex', gap: '16px' }}>
+        <a href="/teams">团队年框</a>
+        <a href="/feed.xml">RSS</a>
+      </span>
       <style jsx>{`
-        a {
-          float: right;
-        }
         @media screen and (max-width: 480px) {
           article {
             padding-top: 2rem;
